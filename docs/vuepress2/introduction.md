@@ -15,7 +15,36 @@ VuePress 是一个以 Markdown 为中心的静态网站生成器。你可以使�
 - 在构建过程中，我们会为 VuePress 站点创建一个服务端渲染 (SSR) 的版本，然后通过虚拟访问每一条路径来渲染对应的 HTML。
 
 ## 页面
-## 路由
+### 路由
+### Frontmatter
+
+Markdown 文件可以包含一个 YAML Frontmatter 。Frontmatter 必须在 Markdown 文件的顶部，并且被包裹在一对三短划线中间。下面是一个基本的示例:
+```
+---
+lang: zh-CN
+title: 页面的标题
+description: 页面的描述
+---
+```
+:::tip
+Frontmatter 优先级最高,Markdown 配置了Frontmatter 将会覆盖`defineUserConfig`中的站点配置
+:::
+
+
+#### 添加 Frontmatter配置项
+> 使Markdown 中的toc 可配置,使用`extendsPageOptions`
+```
+import { defineUserConfig } from "vuepress";
+export default defineUserConfig({
+
+	
+	extendsPageOptions: (pageOptions, app) => {
+		pageOptions.frontmatter = pageOptions.frontmatter ?? {};
+		pageOptions.frontmatter.toc = false;
+	},
+});
+
+```
 
 ## 配置
 [VuePress配置](https://v2.vuepress.vuejs.org/zh/)
@@ -208,7 +237,8 @@ export default defineUserConfig({
 [VuePress](https://v2.vuepress.vuejs.org/zh/)
 
 ## VuePress packages
-
-@vuepress/utils
-@vuepress/core
+vuepress 默认主题@vuepress/theme-default
+vuepress 工具类 @vuepress/utils
+Node API @vuepress/core,其中 提供插件API
+客户端API @vuepress/clien
 
