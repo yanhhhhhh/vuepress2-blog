@@ -12,16 +12,16 @@ export default defineUserConfig({
         link: "/vuepress2/",
         // activeMatch 用于配置高亮规则
         activeMatch: "^/vuepress2/",
-        // children: [
-        //   { text: "介绍", link: "/vuepress2/introduction.md" },
-        //   { text: "部署", link: "/vuepress2/deploy.md" },
-        // ],
+        children: [
+          { text: "介绍", link: "/vuepress2/introduction.md" },
+          { text: "部署", link: "/vuepress2/deploy.md" },
+        ],
       },
       {text:"Markdown",link:"/markdown/"},
       { text: "Github", link: "https://github.com/yanhhhhhh/vuepress2-blog"},
 
     ],
-    sidebar: {
+/*     sidebar: {
       '/vuepress2/': [
         {
           text: 'vuepress2',
@@ -40,7 +40,18 @@ export default defineUserConfig({
           ]
           }
         ]
-    }
+    }, */
+    sidebar: 'auto', // 侧边栏配置
+     sidebarDepth: 6, // 提取哪些标签作为侧边栏
+     
   }),
+   markdown:{
+    toc:{
+      level:[2,3,4,5,6]
+    },
+    headers: {
+			level: [2, 3, 4, 5, 6],
+		},
+   },
   plugins
 });
