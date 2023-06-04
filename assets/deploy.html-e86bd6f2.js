@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-50f5113f","path":"/vuepress2/deploy.html","title":"部署","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"GitHub Pages and Github Actions","slug":"github-pages-and-github-actions","link":"#github-pages-and-github-actions","children":[]}],"git":{"updatedTime":1685897902000},"filePathRelative":"vuepress2/deploy.md"}');export{e as data};

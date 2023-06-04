@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as r,a as e,b as a}from"./app-3c354f83.js";const c={},n=e("h1",{id:"vuepress2",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#vuepress2","aria-hidden":"true"},"#"),a(" vuepress2")],-1),o=e("p",null,"使用vuepress2 搭建的博客",-1),_=[n,o];function d(i,l){return t(),r("div",null,_)}const u=s(c,[["render",d],["__file","index.html.vue"]]);export{u as default};

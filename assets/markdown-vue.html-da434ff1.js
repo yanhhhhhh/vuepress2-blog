@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-d8d2c26c","path":"/markdown/markdown-vue.html","title":"Markdow 中写vue组件","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1685907920000},"filePathRelative":"markdown/markdown-vue.md"}');export{a as data};

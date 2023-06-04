@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-64465693","path":"/vuepress2/architecture.html","title":"架构","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1685907920000},"filePathRelative":"vuepress2/architecture.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-f115bb1a","path":"/vuepress2/plugin.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1685897902000},"filePathRelative":"vuepress2/plugin.md"}');export{e as data};
