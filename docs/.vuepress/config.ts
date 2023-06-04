@@ -1,6 +1,7 @@
 import { defaultTheme, defineUserConfig } from "vuepress";
 import {plugins} from './plugin'
 export default defineUserConfig({
+  lang: 'zh-CN',
   base: "/vuepress2-blog/",
   theme: defaultTheme({
     //导航栏
