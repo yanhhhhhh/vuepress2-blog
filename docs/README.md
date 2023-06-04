@@ -1,6 +1,3 @@
-# hello Vuepress
+# vuepress2
 
-## test
-
-
-正文
+使用vuepress2 搭建的博客
