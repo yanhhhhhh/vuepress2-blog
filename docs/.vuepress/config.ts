@@ -21,28 +21,36 @@ export default defineUserConfig({
       { text: "Github", link: "https://github.com/yanhhhhhh/vuepress2-blog"},
 
     ],
-/*     sidebar: {
-      '/vuepress2/': [
-        {
-          text: 'vuepress2',
-          children: [
-            '/vuepress2/introduction.md',
-            '/vuepress2/file-structure.md',
-            '/vuepress2/deploy.md'
-          ]
-        }
-      ],
-      '/markdown/':[
-        {
-          text: 'Markdown',
-          children: [
-            '/markdown/README.md',
-          ]
-          }
-        ]
-    }, */
-    sidebar: 'auto', // 侧边栏配置
-     sidebarDepth: 6, // 提取哪些标签作为侧边栏
+    // sidebar: {
+    //   '/vuepress2/': [
+    //     {
+    //       text: 'vuepress2',
+    //       collapsible: true,
+    //       children: [
+    //         // {
+    //         //   text: '介绍',
+    //         //   link: '/vuepress2/introduction.md',
+    //         //   // collapsible: true,
+
+    //         // },
+    //        '/vuepress2/introduction.md',
+    //         '/vuepress2/file-structure.md',
+    //         '/vuepress2/deploy.md'
+    //       ]
+    //     }
+    //   ],
+    //   '/markdown/':[
+    //     {
+    //       text: 'Markdown',
+    //       children: [
+    //         '/markdown/README.md',
+    //       ]
+    //       }
+    //     ]
+    // },
+    // sidebar: 'auto', // 侧边栏配置
+    sidebarDepth: 6, // 提取哪些标签作为侧边栏
+    contributors: false, // 是否显示文章的最近更新者
      
   }),
    markdown:{
